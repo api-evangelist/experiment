@@ -1,8 +1,13 @@
 aid: experiment
 name: Experiment
-description: Experiment is a company surfaced as a portfolio company of a16z, slow-ventures, y-combinator
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Experiment is an online crowdfunding platform for scientific research that connects
+  scientists directly with backers who fund individual studies. Researchers across biology, chemistry,
+  medicine, physics, computer science, paleontology, economics, engineering, and neuroscience post
+  projects with goals and budgets; the public pledges funds, follows lab notes, and shares in the
+  discoveries. Experiment (formerly Microryza) also supports university institutions and dedicated
+  funding programs, and publishes results and updates back to funders. It was surfaced as a portfolio
+  company of a16z, slow-ventures, and y-combinator and added to the API Evangelist network; enrichment
+  found a live consumer website but no public developer API, docs, or well-known surface.
 url: https://raw.githubusercontent.com/api-evangelist/experiment/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +17,29 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://d1sg0ksu7mr16v.cloudfront.net/admin_uploads/fb-200-c.png
 tags:
 - Company
+- Crowdfunding
+- Science
+- Research
+- Science Funding
+- Research Funding
+- Academic Research
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +49,26 @@ maintainers:
 common:
 - type: Website
   url: https://experiment.com
+- type: Blog
+  name: Lab Notes
+  url: https://experiment.com/labnotes
+- type: GettingStarted
+  name: Guide
+  url: https://experiment.com/guide
+- type: SignUp
+  name: Register
+  url: https://experiment.com/register
+- type: Login
+  name: Log in
+  url: https://experiment.com/login
+- type: Support
+  name: FAQ
+  url: https://experiment.com/faq
+- type: PrivacyPolicy
+  name: Privacy Policy
+  url: https://experiment.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
